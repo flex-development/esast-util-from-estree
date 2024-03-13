@@ -1455,7 +1455,7 @@ __metadata:
     "@flex-development/commitlint-config": "npm:1.0.1"
     "@flex-development/decorator-regex": "npm:2.0.0"
     "@flex-development/docast": "npm:1.0.0-alpha.14"
-    "@flex-development/esast": "npm:1.0.0-alpha.1"
+    "@flex-development/esast": "npm:1.0.0-alpha.4"
     "@flex-development/esm-types": "npm:2.0.0"
     "@flex-development/grease": "npm:3.0.0-alpha.9"
     "@flex-development/mkbuild": "npm:1.0.0-alpha.23"
@@ -1540,16 +1540,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@flex-development/esast@npm:1.0.0-alpha.1":
-  version: 1.0.0-alpha.1
-  resolution: "@flex-development/esast@npm:1.0.0-alpha.1::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40flex-development%2Fesast%2F1.0.0-alpha.1%2Fd30f7e44a12b1b20b4da5359d679af15f60e4069"
+"@flex-development/esast@npm:1.0.0-alpha.4":
+  version: 1.0.0-alpha.4
+  resolution: "@flex-development/esast@npm:1.0.0-alpha.4::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40flex-development%2Fesast%2F1.0.0-alpha.4%2F2f7a02fead323d6358a6625528a0472140e0ffa3"
   dependencies:
     "@flex-development/tutils": "npm:6.0.0-alpha.25"
   peerDependencies:
     "@flex-development/docast": ">=1.0.0-alpha.14"
+    "@flex-development/unist-util-types": ">=1.0.0"
     "@types/mdast": ">=4.0.3"
     "@types/unist": ">=3.0.2"
-  checksum: 10/a5eabec9ae0e6a059f1e4a5fc9f011c564c3b16fca1cabb47135e6e5227b8e816381d6d298511c8874fabb745aad41549978723b20f0fd7b09144bbed6c380ea
+  checksum: 10/9c8213ad2f5ce4f5cb43332ab36506a2fb33f32de3990b040defc8329ce52b04f837ceeb1a21a99e2e2864ae3d44ca8e1b57cb2305aa9efe7b57b7b78f9d1fc5
   languageName: node
   linkType: hard
 
